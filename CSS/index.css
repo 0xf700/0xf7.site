@@ -61,12 +61,6 @@ header{
     transform: scale(1.2);
 }
 
-
-.soci-navbar-icons{
-    opacity: 1;
-    transition: opacity .12s ease-in-out;
-}
-
 /*-HEADER-*/
 
 /*-CONTENT-*/
@@ -84,16 +78,25 @@ header{
     .introduction{
         display: flex;
         flex-direction: row;
+        align-items: center;
         padding: 3%;
         font-family: 'Schoolbell', cursive;
-        width: 40vw;
+        width: 60vw;
         margin-top: auto;
     }
 
     .aboutbox{
         display: flex;
         flex-direction: column;
-        margin-right: auto;
+        margin-left: 5%;
+        width: 20vw;
+        padding: 1%;
+    }
+
+    .skillbox{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
         width: 20vw;
         padding: 1%;
     }
@@ -107,16 +110,13 @@ header{
         box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.5);
     }
 
-    .music-container {
-        width: 100%;
+    #totypic{
+    transition: transform 0.1s ease;;
     }
 
-    .music-container iframe {
-        display: block;
-        width: 100%;
-        height: 450px;
-        border: none;
-    }
+    #totypic:hover{
+        transform: scale(1.1);
+    } 
 /*-INTRODUCTION-*/
 
 /*-FOOTER-*/
@@ -124,6 +124,7 @@ header{
 footer{
     display: flex;
     flex-direction: row;
+    justify-items: center;
     margin-top: auto;
     padding: 0;
     width: 60vw;
