@@ -31,6 +31,16 @@ header{
     width: 60vw;
     border-bottom: 2px solid black;
     z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /*-sussy code-*/
+        /* background-image: url("../imgs/tempbg.jpg"); */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    /*-sussy code-*/
 }
 
 .header-spacer {
@@ -67,6 +77,17 @@ header{
 
 .content{
     flex: 1;
+}
+
+.soundcloud-player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    margin-left: 0%;
+    width: 30vw;
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
 }
 
 
