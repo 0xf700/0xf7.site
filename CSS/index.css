@@ -84,9 +84,10 @@ header{
     flex-direction: column;
     align-items: center;
     padding: 1%;
-    margin-left: 0%;
-    width: 30vw;
-    font-family: "Rubik Glitch", system-ui;
+    margin-left: 58%;
+    margin-top: -28%;
+    width: 23vw;
+    font-family: "Rubik Glitch", system-ui; 
     font-weight: 400;
 }
 
@@ -99,25 +100,20 @@ header{
     .introduction{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: left;
+        margin-left: -1vw;
         padding: 3%;
         font-family: 'Schoolbell', cursive;
         width: 60vw;
-        margin-top: auto;
+        margin-bottom: auto;
+        color: black;
     }
 
-    .aboutbox{
+    .aboutme{
         display: flex;
         flex-direction: column;
-        margin-left: 5%;
-        width: 20vw;
-        padding: 1%;
-    }
-
-    .skillbox{
-        display: flex;
-        flex-direction: column;
-        margin-left: 2%;
+        text-align: left;
+        margin-left: 3%;
         width: 20vw;
         padding: 1%;
     }
@@ -132,13 +128,50 @@ header{
     }
 
     #totypic{
-    transition: transform 0.1s ease;;
+        transition: transform 0.1s ease;;
     }
 
     #totypic:hover{
         transform: scale(1.1);
     } 
 /*-INTRODUCTION-*/
+
+/*-CONTACT-INFO-*/
+
+    .contactinfo{
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Schoolbell', cursive;
+        margin-top: 20vh;
+        margin-left: -21.5vw;
+        width: 8vw;
+        height: 10vh;
+        padding: 1%;
+    }
+
+    .contact-navbar{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 6vw;
+        gap: 15px;
+    }
+
+    
+        /*-CONTACTINFOANIM-*/
+
+        .contact-navbar-icons{
+            transition: transform 0.1s ease;;
+        }
+
+        .contact-navbar-icons:hover{
+            transform: scale(1.1);
+        }
+
+        /*-CONTACTINFOANIM-*/
+
+/*-CONTACT-INFO-*/
 
 /*-FOOTER-*/
 
